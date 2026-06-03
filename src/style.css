@@ -1,6 +1,7 @@
 :root {
   --color-bg-button: #008BFE;
   --color-primary: #ffffff;
+  --font: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
  body {
