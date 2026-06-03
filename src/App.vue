@@ -1,9 +1,16 @@
 <script setup>
-
+import Button from "./components/Button.vue";
 </script>
 
 <template>
-  <div id="app">
-    <p>Текущая дата: {{ new Date().toLocaleDateString('ru-RU') }}</p>
-  </div>
+  <main class="main">
+     <Button>Начать игру</Button>
+  </main>   
 </template>
+
+<style scoped>
+.main {
+  background: var(--color-primary);
+}
+
+</style>
