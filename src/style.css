@@ -1,6 +1,7 @@
 :root {
   --color-bg-button: #008BFE;
   --color-primary: #ffffff;
+  --color-header: #222222;
   --font: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -12,11 +13,6 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  display: grid;
-  place-items: center;
-  min-height: 100vh
-
- }
+}
 
 
